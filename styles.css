@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  margin-topL 50px;
+  margin-top: 50px;
+  font-family: sans-serif; 
 }
 
 
@@ -12,7 +13,6 @@ header {
   right: 0;
   height: 50px;
   line-height: 50px;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   background-color: #eee;
 }
 
@@ -36,13 +36,40 @@ section {
   justify-content: center;
   align-items:center;
   text-align: center;
+  
+  background-size:cover;
+  background-position: center center;
+  background repeat: no-repeat;
+  background-attachment: fixed; 
 }
 
 #home .profile-img{
   width: 300px;
+  border-radius: 50%;
 }
 
 footer {
   text-align: center;
   padding: 50px;
+}
+
+#home h1{
+  font-size:3em;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 2.5em;
+}
+
+header a{
+  text-decoration: none;
+  colour: black;
+}
+
+#home {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('images/tornto.jpg');
 }
