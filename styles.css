@@ -2,6 +2,7 @@ body {
   margin: 0;
   margin-top: 50px;
   font-family: sans-serif; 
+  background-image: url("/images/toronto.jpg");
 }
 
 
@@ -68,8 +69,4 @@ section h3 {
 header a{
   text-decoration: none;
   colour: black;
-}
-
-#home {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("images/toronto.jpg");
 }
