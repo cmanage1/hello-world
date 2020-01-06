@@ -1,1 +1,1 @@
-Web portfolio coded entirely by me
+Web portfolio coded by me
