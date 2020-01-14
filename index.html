@@ -1,33 +1,79 @@
 <!DOCTYPE html>
+<html lang = "en">
 
-<html>
-  <head>
-    <title>cmanage1 Web Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<head>
+    <meta charset = "UTF-8">
+    <meta name"viewport" content= "width=device-width, initial-scale=1">
+    <title>Chethin Manage</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body
     <header>
-      <img src= "images/al pacino.jpg" alt="Temporary Avatar" class="profile-img">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about/index.html">About</a></li>
-          <li><a href="code/index.html">Code</a></li>
-          <li><a href="contact/index.html">Contact</a></li>
-         </ul>
-       </nav>
+        <div class = "menu-toggler">
+            <div class = "bar half start"></div>
+            <div class = "bar"></div>
+            <div class = "bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link"> Home</a>
+                </li>
+                <li>
+                    <a href="about" class="nav-link"> About</a>
+                </li>
+                <li>
+                    <a href="servces" class="nav-link"> Services</a>
+                </li
+                <li>
+                    <a href="portfolio" class="nav-link"> Portfolio</a>
+                </li>
+                <li>
+                    <a href="experience" class="nav-link"> Experience</a>
+                </li>
+                <li>
+                    <a href="contact" class="nav-link"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class = "landing-text">
+            <h1> Chethin mange </h1>
+            <h6> Back End Developer </h6>
     </header>
-    <main>
-      <section id= "Home">
-        <div class= "section-inner">
-            <img src = "images/al pacino.jpg" alt="Temporary Avatar" class="profile-img">
-            <h1>Hi. This is cmanage1's website.</h1>
-        </div> 
-      </section>
-            
-    </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
-  </body>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img">
+                <img src="images/al_pacino.jpg"  alt="">
+            </div>
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras justo mi, placerat in dui laoreet, fringilla fermentum nisi.
+                    Pellentesque sollicitudin massa at placerat efficitur.
+                    Praesent interdum velit quam, non cursus nunc laoreet et.
+                    Nullam sit amet tellus efficitur, auctor nulla sit amet, aliquam urna.
+                </p>
+            </div>
+            <div class="social-media">
+                <ul class= "nav-list">
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
