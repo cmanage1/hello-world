@@ -63,7 +63,7 @@ header{
 }
 
 li{
-    margin: 0.2rem;
+    margin: 0 2rem;
 }
 
 .nav-link{
@@ -76,10 +76,10 @@ li{
 .nav-link:focus{
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
-    -websit-text-fill-colour: transparent;
+    -webkit-text-fill-colour: transparent;
 }
 
-.top-nav.open{
+.top-nav.open{ 
     top: 0;
     border-radius: initial;
 }
