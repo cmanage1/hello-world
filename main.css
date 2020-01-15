@@ -72,14 +72,7 @@ li{
     padding: 1rem;
 }
 
-.nav-link: hover,
-.nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
-    -webkit-background-clip: text;
-    -websit-text-fill-colour: transparent;
-}
-
-.nav-link: hover,
+.nav-link:hover,
 .nav-link:focus{
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
