@@ -54,7 +54,7 @@ header{
     transition: all 650ms cubic-bezier(1,0,0,1);
 }
 
-/*
+
 .nav-list{
     list-style: none;
     width: 100%; 
@@ -63,7 +63,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+/*
 li{
     margin: 0 2rem;
 }
