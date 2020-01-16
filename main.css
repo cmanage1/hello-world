@@ -57,13 +57,13 @@ header{
 
 .nav-list{
     list-style: none;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/*
+
 li{
     margin: 0 2rem;
 }
@@ -73,7 +73,7 @@ li{
     font-size: 5rem;
     padding: 1rem;
 }
-
+/*
 .nav-link:hover,
 .nav-link:focus{
     background: linear-gradient(to top, #ffe838, #fd57bf);
@@ -81,7 +81,7 @@ li{
     -webkit-text-fill-colour: transparent;
 }
 
-.top-nav.open{ 
+.top-nav.open{
     top: 0;
     border-radius: initial;
 }
