@@ -69,7 +69,8 @@ li{
 }
 
 .nav-link{
-    font-family: 'The Historia Demo' , sans-serif;
+    /*Font does not work*/
+    font-family: 'The Historia Demo', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -78,7 +79,7 @@ li{
 .nav-link:focus{
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
-    -webkit-text-fill-colour: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .top-nav.open{
