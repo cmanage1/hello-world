@@ -407,7 +407,7 @@ li{
     content: attr(date-date);
     left: -21rem;
     text-align: right;
-    min--width: 12rem;
+    min-width: 12rem;
     font-size: 1.5rem;
 }
 
