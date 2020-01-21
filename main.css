@@ -19,7 +19,7 @@ body{
 }
 
 section{
-    padding: 6rem 0;
+    padding: 6rem;
 }
 
 a{
@@ -94,98 +94,6 @@ img{
     margin-right:  5rem;
 }
 /*End reusable*/
-
-
-/*Start skills*/
-.my-skills{
-    margin-top: 10rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) ;
-    grid-gap: 2.5rem;
-    text-align: center;
-}
-
-.skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.skill h1{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;
-}
-
-.icon-container{
-    width: 10rem;
-    height: 10rem;
-    border: 3px solid #00ff91;
-    background-color: #4267b2;
-    margin-bottom: 2rem;
-    display: flex;
-    transform: rotate(45deg);
-}
-
-.icon-container i{
-    color: #0AF6F4;
-    font-size: 5rem;
-    margin: auto;
-    transform: rotate(-45deg);
-}
-/*End skills*/
-
-
-/*Start portfolio*/
-.portfolio-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
-
-.portfolio-item:last-child{
-    margin-bottom: 0;
-}
-
-.portfolio-img{
-    width: 50rem;
-    flex: 2;
-}
-
-.portfolio-description{
-}
-
-.portfolio-description h1{
-    font-size: 3rem;
-    font-weight: 300;
-    margin: 1rem 0;
-
-}
-
-.portfolio-description h6{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    opacity: 0.3;
-
-}
-
-.portfolio-description .cta{
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #00ff91;
-    transition: color 650ms;
-}
-
-.portfolio-description .cta:hover{
-    color: #303CCB;
-}
-/*End portfolio*/
 
 
 /*Start header*/
@@ -312,54 +220,95 @@ li{
 }
 /*End header*/
 
+/*Start skills*/
+.my-skills{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) ;
+    grid-gap: 2.5rem;
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.skill h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
+
+.icon-container{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #00ff91;
+    background-color: #4267b2;
+    margin-bottom: 2rem;
+    display: flex;
+    transform: rotate(45deg);
+}
+
+.icon-container i{
+    color: #0AF6F4;
+    font-size: 5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+/*End skills*/
 
 
-/*Start about*/
-.about .container{
+/*Start portfolio*/
+.portfolio-item{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
-.about-heading{
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 0;
-    margin-bottom: 6rem;
+.portfolio-item:last-child{
+    margin-bottom: 0;
 }
 
-.about-heading h1{
-    font-size: 10rem;
-    opacity: .3;
+.portfolio-img{
+    width: 50rem;
+    flex: 2;
 }
 
-.about-heading h6{
-    font-size: 2rem;
+.portfolio-description{
+}
+
+.portfolio-description h1{
+    font-size: 3rem;
     font-weight: 300;
+    margin: 1rem 0;
 }
 
-.profile-img{
-    flex: 1;
-    margin-right: 5rem;
+.portfolio-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
 }
 
-.about-details{
-    flex: 1;
-}
-
-.social-media{
-    margin-top: 5rem;
-}
-
-.social-media i{
-    font-size: 5rem;
+.portfolio-description .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #00ff91;
     transition: color 650ms;
 }
 
-.fa-github-square:hover{
-    color: #4267b2;
+.portfolio-description .cta:hover{
+    color: #303CCB;
 }
-/*End about*/
+/*End portfolio*/
+
 
 
 /*Start timeline
@@ -420,7 +369,58 @@ li{
     width: 1.5rem;
     background-color: #303CCB;
 }
-End timeline*/
+ End timeline*/
+
+
+/*Start about*/
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+
+.about-heading h1{
+    font-size: 10rem;
+    opacity: .3;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.profile-img{
+    flex: 1;
+    margin-right: 5rem;
+}
+
+.about-details{
+    flex: 1;
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
+
+.fa-github-square:hover{
+    color: #4267b2;
+}
+/*End about*/
+
+
+
 
 /*Start contact*/
 .contact{
