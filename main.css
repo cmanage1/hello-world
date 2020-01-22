@@ -578,9 +578,21 @@ input[type= "submit"]{
         left: -5.9rem;
     }
     */
+    form{
+        width: 100%;
+    }
+
+    .up{
+        right: 2rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        background: url("images/background.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+
     .menu-toggler{
         top: 2rem;
         right: 2rem;
