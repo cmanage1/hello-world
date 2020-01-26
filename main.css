@@ -33,7 +33,7 @@ p{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 /*End global*/
 
@@ -418,6 +418,10 @@ li{
 .fa-github-square:hover{
     color: #EED971FF;
 }
+
+.fa-hackerrank:hover{
+    color: #EED971FF;
+}
 /*End about*/
 
 
@@ -515,7 +519,7 @@ input[type= "submit"]{
 
 /* media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body{
         background: url("images/background.jpg") no-repeat center fixed;
         background-size: cover;
@@ -590,7 +594,7 @@ input[type= "submit"]{
 
 @media screen and (max-width: 600px) {
     body{
-        background: url("images/background.jpg") fixed;
+        background: url("images/background.jpg") no-repeat center fixed;
         background-size: cover;
     }
 
@@ -607,6 +611,14 @@ input[type= "submit"]{
         font-size: 1.4rem;
     }
 
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 2rem 0;
+    }
+
     .nav-link{
         font-size: 3.5rem;
     }
@@ -619,7 +631,7 @@ input[type= "submit"]{
         margin: 0 0 7rem 0;
     }
 
-    .portfolio-iterm{
+    .portfolio-item{
         flex-direction: column;
     }
 
