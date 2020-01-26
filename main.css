@@ -206,7 +206,7 @@ li{
 
 .landing-text h1{
     font-size: 12rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     background: linear-gradient(to top, #FFBE7BFF, #EED971FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
