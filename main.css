@@ -41,7 +41,7 @@ img{
 
 /*Start reusable*/
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 120rem;
     height: 100%;
     margin: 0 auto;
@@ -215,8 +215,9 @@ li{
 }
 
 .landing-text h6{
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
 }
 /*End header*/
 
@@ -476,7 +477,7 @@ input[type= "submit"]{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #eee;
+    background-color: #EED971FF;
     top: -2.5rem;
     right: 5rem;
     border-radius: 100%;
@@ -486,7 +487,7 @@ input[type= "submit"]{
 }
 
 .up i{
-    color: #4267b2;
+    color: #1d58b4;
     font-size: 2rem;
     margin: auto;
 }
