@@ -136,7 +136,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #096979, #00ff91);
+    background: linear-gradient(to top, #FFBE7BFF, #EED971FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -165,7 +165,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #303CCB, #0AF6F4);
+    background: linear-gradient(to right, #FFBE7BFF, #EED971FF);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -207,7 +207,7 @@ li{
 .landing-text h1{
     font-size: 12rem;
     font-family: 'Acme', sans-serif;
-    background: linear-gradient(to top, #096979, #00ff91);
+    background: linear-gradient(to top, #FFBE7BFF, #EED971FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -246,7 +246,7 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #00ff91;
+    border: 3px solid #EED971FF;
     background-color: #4267b2;
     margin-bottom: 2rem;
     display: flex;
@@ -254,7 +254,7 @@ li{
 }
 
 .icon-container i{
-    color: #0AF6F4;
+    color: #FFBE7BFF;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -415,7 +415,7 @@ li{
 }
 
 .fa-github-square:hover{
-    color: #4267b2;
+    color: #EED971FF;
 }
 /*End about*/
 
@@ -424,7 +424,7 @@ li{
 
 /*Start contact*/
 .contact{
-    background-color: #4267b2;
+    background-color: #1d58b4;
 }
 
 form{
@@ -467,7 +467,7 @@ input[type= "submit"]{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #303CCB;
+    background-color: #0a141b;
     padding: 2rem 0;
     position: relative;
 }
@@ -589,7 +589,7 @@ input[type= "submit"]{
 
 @media screen and (max-width: 600px) {
     body{
-        background: url("images/background.jpg") no-repeat center fixed;
+        background: url("images/background.jpg") fixed;
         background-size: cover;
     }
 
@@ -650,3 +650,5 @@ input[type= "submit"]{
         right: 2rem;
     }
 }
+
+/* Blazing Orange (#FFA351FF), Buff Orange (#FFBE7BFF) and Yellow Cream (#EED971FF) */
