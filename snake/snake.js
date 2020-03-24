@@ -3,7 +3,7 @@ function Snake() {
     this.y=0;
     this.xSpeed= scale * 1;
     this.ySpeed = 0;
-    this.total= 0;
+    this.total= 0; //This is the score 
     this.tail = [];
 
 

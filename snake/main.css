@@ -1,0 +1,15 @@
+.score{
+    font-family: "Courier New";
+    color: #ffffff;
+}
+
+body{
+    background-color: #000000;
+}
+
+canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
