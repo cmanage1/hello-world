@@ -20,7 +20,9 @@ var snake;
             fruit.pickLocation();
         }
 
-        snake.checkCollision();
+        if ( snake.checkCollision() ){
+            console.log("Snake has crashed");
+        }
         document.querySelector('.score')
           .innerText = "Your score: " + snake.total;
 

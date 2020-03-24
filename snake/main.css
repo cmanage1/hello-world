@@ -11,5 +11,8 @@ canvas{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-right: auto;
     width: 50%;
 }
+

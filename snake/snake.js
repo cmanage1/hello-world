@@ -80,6 +80,7 @@ function Snake() {
             if (this.x === this.tail[i].x  && this.y ===this.tail[i].y){
                 this.total=0;
                 this.tail = [];
+                return true;
             }
         }
     }
