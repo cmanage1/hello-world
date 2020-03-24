@@ -92,6 +92,7 @@ img{
 
 .has-margin-right{
     margin-right:  5rem;
+    width: 50%;
 }
 /*End reusable*/
 
@@ -138,6 +139,7 @@ li{
 .nav-link:focus{
     background: linear-gradient(to top, #FFBE7BFF, #EED971FF);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -209,6 +211,7 @@ li{
     font-family: 'Roboto';
     background: linear-gradient(to top, #FFBE7BFF, #EED971FF);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
     user-select: none;
@@ -276,11 +279,8 @@ li{
 }
 
 .portfolio-img{
-    width: 50rem;
-    flex: 2;
-}
-
-.portfolio-description{
+    max-width: 25%;
+    flex: 1;
 }
 
 .portfolio-description h1{
