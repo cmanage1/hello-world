@@ -12,8 +12,11 @@ html{
 }
 
 body{
-    background: url("images/background2.jpg") center fixed no-repeat;
+    background: url("images/background2.jpg") ;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
 }
@@ -510,8 +513,11 @@ textarea{
 /* media queries */
 @media (max-width: 56.25em) {
     body{
-        background: url("images/background2.jpg") center fixed no-repeat;
+        background: url("images/background2.jpg");
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         width: 100%;
         height: 100%;
     }
