@@ -7,7 +7,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Lato' , sans-serif;
     color: #eee;
 }
 
@@ -54,7 +54,7 @@ img{
 }
 
 .section-heading h1{
-    font-size: 3.5rem;
+    font-size: 52px;
     color: rgba(255, 255,255, .3);
     text-transform: uppercase;
     font-weight: 300;
@@ -130,8 +130,8 @@ li{
 }
 
 .nav-link{
-    font-family: 'Acme' , sans-serif;
-    font-size: 5rem;
+    font-family: 'Lato' , sans-serif;
+    font-size: 4rem;
     padding: 1rem;
 }
 
@@ -207,8 +207,9 @@ li{
 }
 
 .landing-text h1{
-    font-size: 12rem;
-    font-family: 'Roboto';
+    font-size: 72px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 500;
     background: linear-gradient(to top, #FFBE7BFF, #EED971FF);
     -webkit-background-clip: text;
     background-clip: text;
@@ -218,11 +219,64 @@ li{
 }
 
 .landing-text h6{
-    font-size: 3rem;
-    font-style: italic;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 300;
 }
 /*End header*/
+
+
+/*Start about*/
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+
+.about-heading h1{
+    font-size: 9rem;
+    opacity: .3;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.profile-img{
+    display: block;
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.about-details{
+    margin-top: 5rem;
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
+
+.fa-github-square:hover{
+    color: #EED971FF;
+}
+
+.fa-hackerrank:hover{
+    color: #EED971FF;
+}
+/*End about*/
+
 
 /*Start skills*/
 .my-skills{
@@ -373,58 +427,6 @@ li{
  End timeline*/
 
 
-/*Start about*/
-.about .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-heading{
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 0;
-    margin-bottom: 6rem;
-}
-
-.about-heading h1{
-    font-size: 10rem;
-    opacity: .3;
-}
-
-.about-heading h6{
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-.profile-img{
-    flex: 1;
-    margin-right: 5rem;
-}
-
-.about-details{
-    flex: 1;
-}
-
-.social-media{
-    margin-top: 5rem;
-}
-
-.social-media i{
-    font-size: 5rem;
-    transition: color 650ms;
-}
-
-.fa-github-square:hover{
-    color: #EED971FF;
-}
-
-.fa-hackerrank:hover{
-    color: #EED971FF;
-}
-/*End about*/
-
-
 
 
 /*Start contact*/
@@ -518,81 +520,7 @@ input[type= "submit"]{
 
 
 /* media queries */
-
-@media screen and (max-width: 800px) {
-    body{
-        background: url("images/background.jpg") no-repeat center fixed;
-        background-size: cover;
-    }
-
-    .landing-text h1{
-        font-size: 12rem;
-    }
-
-    .landing-text h6{
-        font-size: 1.7rem;
-    }
-
-    .nav-list{
-        flex-direction: column;
-    }
-
-    li{
-        margin: 2rem 0;
-    }
-
-    .nav-link{
-        font-size: 4.5rem;
-    }
-
-    .about-heading h1{
-        font-size: 8rem;
-    }
-
-    .section-heading h1{
-        font-size: 3rem;
-    }
-
-    .about-details .nav-list{
-        flex-direction: initial;
-    }
-
-    .about-details li{
-        margin: 0 2rem;
-    }
-
-    .icon-container{
-        width: 7rem;
-        height: 7rem;
-    }
-
-    .icon-container i{
-        font-size: 4rem;
-    }
-
-    /*
-    .timeline ul{
-        margin: 0 0 0 auto;
-    }
-
-    .timeline .date::before{
-        left: -20rem;
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
-    }
-    */
-    form{
-        width: 100%;
-    }
-
-    .up{
-        right: 2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
+@media (max-width: 56.25em) {
     body{
         background: url("images/background.jpg") no-repeat center fixed;
         background-size: cover;
@@ -604,7 +532,7 @@ input[type= "submit"]{
     }
 
     .landing-text h1{
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .landing-text h6{
@@ -628,7 +556,10 @@ input[type= "submit"]{
     }
 
     .profile-img {
-        margin: 0 0 7rem 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .portfolio-item{
@@ -660,7 +591,7 @@ input[type= "submit"]{
     }
 
     .up{
-        right: 2rem;
+       right: 2rem;
     }
 }
 
