@@ -297,6 +297,7 @@ li{
 
 .skill h1{
     text-transform: uppercase;
+    font-weight: 700;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
@@ -431,7 +432,7 @@ li{
 
 /*Start contact*/
 .contact{
-    background-color: #1d58b4;
+    background-color: #43293A;
 }
 
 form{
@@ -450,23 +451,10 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #303CCB;
+    outline-color: #43293A;
 }
 
-input[type= "submit"]{
-    width: initial;
-    background-color: #303CCB;
-    color: #eee;
-    padding: 1rem 2rem;
-    border-radius: .8rem;
-    cursor: pointer;
-    transition: background-color 650ms;
-}
 
-input[type= "submit"]{
-    color: #eeeeee;
-    background-color: #FF1493;
-}
 /*End contact*/
 
 
@@ -493,7 +481,7 @@ input[type= "submit"]{
 }
 
 .up i{
-    color: #1d58b4;
+    color: #000000;
     font-size: 2rem;
     margin: auto;
 }
