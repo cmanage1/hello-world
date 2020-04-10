@@ -512,6 +512,8 @@ textarea{
     body{
         background: url("images/background2.jpg") center fixed no-repeat;
         background-size: cover;
+        width: 100%;
+        height: 100%;
     }
 
     .menu-toggler{
