@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background: url("images/background2.jpg") no-repeat center fixed;
+    background: url("images/background2.jpg") center fixed no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -306,7 +306,7 @@ li{
     width: 10rem;
     height: 10rem;
     border: 3px solid #EED971FF;
-    background-color: #4267b2;
+    background-color: #2A1826;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
@@ -510,7 +510,7 @@ textarea{
 /* media queries */
 @media (max-width: 56.25em) {
     body{
-        background: url("images/background2.jpg") no-repeat center fixed;
+        background: url("images/background2.jpg") center fixed no-repeat;
         background-size: cover;
     }
 
