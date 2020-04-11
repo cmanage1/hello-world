@@ -133,9 +133,9 @@ img{
     color: #F4CE75;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 2.7rem;
     display: inline-block;
-    border-radius: 10rem;
+    border-radius: 6rem;
     transition: all .2s;
     font-size: 1.6rem; 
 }
@@ -560,7 +560,7 @@ li{
 
 .card__description {
     font-size: 1.8rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem; 
 }
 
@@ -599,7 +599,7 @@ textarea{
 
 .contact h6{
     margin-top: 1rem;
-    margin-bottom: 1rem;;
+    margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 700;
     transition: all 0.2s;
@@ -777,6 +777,10 @@ textarea{
     .card__details {
         padding: 0.4em 3rem;
         font-size: 4rem;
+    }
+
+    .card__description{
+        margin-top: 0.2rem;
     }
       
     .card__cta {
