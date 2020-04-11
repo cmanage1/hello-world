@@ -308,6 +308,7 @@ li{
 
 .about-details{
     margin-top: 5rem;
+    padding: 0 0 0 1rem;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -385,8 +386,6 @@ li{
     font-size: 5rem;
     margin: auto;
 }
-
-
 /*End skills*/
 
 
@@ -563,7 +562,9 @@ li{
 .card__description {
     font-size: 1.8rem;
     margin-top: 2rem;
-    margin-bottom: 1.5rem; 
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 /*End portfolio*/
