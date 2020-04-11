@@ -29,14 +29,8 @@
                     <a href="#skills" class="nav-link"> Skills</a>
                 </li>
                 <li>
-                    <a href="#portfolio" class="nav-link"> Portfolio</a>
+                    <a href="#portfolio" class="nav-link"> Projects</a>
                 </li>
-
-                <!--
-                <li>
-                    <a href="#experience" class="nav-link"> Experience</a>
-                </li>
-                -->
                 <li>
                     <a href="#contact" class="nav-link"> Contact</a>
                 </li>
@@ -45,6 +39,7 @@
         <div class = "landing-text">
             <h1> CHETHIN MANAGE </h1>
             <h6> Software Developer </h6>
+            <a href="#portfolio" class="btn btn--grey btn--header ">See projects</a>
         </div>
     </header>
 
@@ -59,10 +54,11 @@
                     <h6>Myself</h6>
                 </div>
                 <p>
-                    Hello,
-                    I am a developer from Ottawa, Ontario currently specializing
-                    in web development. Keep scrolling to take a look at the 
-                    rest of my website!
+                    Hello, I am a developer from Ottawa, Ontario currently specializing
+                    in web development. As a sedulous programmer, I strive to 
+                    produce the best products by continuous iteration and
+                    improvement. 
+
                 </p>
                 <div class="social-media">
                     <ul class= "nav-list">
@@ -74,6 +70,11 @@
                         <li>
                             <a href="https://www.hackerrank.com/cmanage1" class="icon-link">
                                 <i class="fab fa-hackerrank"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/chethinm/" class="icon-link">
+                                <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                     </ul>
@@ -122,83 +123,124 @@
     <section class= "portfolio" id= "portfolio">
         <div class="container">
             <div class="section-heading">
-                <h1>My Projects</h1>
+                <h1>Projects</h1>
                 <h6>Check out some of my work</h6>
             </div>
 
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right"  >
-                    <img src="images/gameplay.png" alt="">
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class='card'>
+                        <div class='card__side card__side--front card__side--front-1'>
+                            <div class='card__picture card__picture--1'>
+                                &nbsp;
+                            </div>
+                            <h4 class='card__heading'>
+                                <span class='card__heading-span--1'>
+                                    Snake Game
+                                </span>
+                            </h4>
+                            <div class='card__details'>
+                                <ul>
+                                    <li> HTML </li>
+                                    <li> Vanilla JS </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class='card__side card__side--back card__side--back-1'>
+                            <div class='card__cta'>
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                        </p>
+                                    </div>
+                                    <a href="https://github.com/cmanage1/Snake-js" class= "btn btn--card">Source Code</a>
+                                    <p><br>
+                                    </p>
+                                    <a href="https://cmanage1.github.io/snake/" class="btn btn--card">Click here to play!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="portfolio-description">
-                    <h1>SNAKE</h1>
-                    <h6>Vanilla JS </h6>
-                    <p>
-                        - Snake game created using HTML canvas
-                    </p>
-                    <a href="https://github.com/cmanage1/Snake-js" class="cta"> Source Code</a>
-                    <a href="https://cmanage1.github.io/snake/" class="cta"> Try it for yourself!</a>
 
+                <div class="col-1-of-3">
+                    <div class='card'>
+                        <div class='card__side card__side--front card__side--front-2'>
+                            <div class='card__picture card__picture--2'>
+                                &nbsp;
+                            </div>
+                            <h4 class='card__heading'>
+                                <span class='card__heading-span--2'>
+                                    School Finder
+                                </span>
+                            </h4>
+                            <div class='card__details'>
+                                <ul>
+                                    <li> Vanilla JS </li>
+                                    <li> Express API </li>
+                                    <li> Puppeteer Web Scraper </li>
+                                    <li> mySQL </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class='card__side card__side--back card__side--back-2'>
+                            <div class='card__cta'>
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            Matches the user with the best law school for them
+                                        </p>
+                                    </div>
+                                    <a href="https://github.com/cmanage1/SchoolFinder" class="btn btn--card">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+<!--
+                <div class="col-1-of-3">
+                    <div class='card'>
+                        <div class='card__side card__side--front card__side--front-1'>
+                            <div class='card__picture card__picture--3'>
+                                &nbsp;
+                            </div>
+                            <h4 class='card__heading'>
+                                <span class='card__heading-span--3'>
+                                    Coming Soon
+                                </span>
+                            </h4>
+                            <div class='card__details'>
+                                <ul>
+                                    <li> Vanilla JS </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class='card__side card__side--back card__side--back-3'>
+                            <div class='card__cta'>
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            Not yet available
+                                        </p>
+                                    </div>
+                                    <a href="#portfolio" class="btn btn--card">Placeholder</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+-->          
             </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
-                    <h1>SchoolFinder</h1>
-                    <h6>JavaScript
-                        Express API
-                        Puppeteer Web Scraper
-                        mySQL
-                    </h6>
-                    
-                    <p>
-                        CURRENTLY UNDER CONSTRUCTION 
-                        </br>- This web app will match you with the best LAW school for the user
-                        </br>- A questionnaire is given at first to the user to answer
-                        </br>- The scraper will pull data from a given database
-                        </br> - The algorithm will calculate the best match and present it to the user
-                    </p>
-                    <a href="https://github.com/cmanage1/SchoolFinder" class="cta"> Source Code</a>
-                    <a href="https://cmanage1.github.io/SchoolFinder/" class="cta"> Try it for yourself!</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
-                    <img src="images/SchoolFinderUI.png" alt="">
-                </div>
-            </div>
-
         </div>
     </section>
-
-    <!--
-    <section class= "experience" id= "experience">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Work Experience</h1>
-                <h6>Past and current jobs</h6>
-            </div>
-            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
-                <ul>
-                    <li class="data" data-date="2011 - Present">
-                        <h1> Places</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras justo mi, placerat in dui laoreet, fringilla fermentum nisi.
-                            Pellentesque sollicitudin massa at placerat efficitur.
-                            Praesent interdum velit quam, non cursus nunc laoreet et.
-                            Nullam sit amet tellus efficitur, auctor nulla sit amet, aliquam u
-                        </p>
-                    </li>
-                </ul>
-            </div>
-
-    </section>
--->
 
     <section class= "contact" id= "contact">
         <div class="container">
             <div class="section-heading">
                 <h1>Contact</h1>
-                <h6>Send me an email : chethin.manage@gmail.com</h6>
+                <h4><br>Send me an email!</h4>
+                <h6 id="email" >chethin.manage@gmail.com</h6>
+                <button type="button" class="btn--contact" onclick="copyToClipboard('email')">Copy to Clipboard</button>
             </div>
     </section>
 
@@ -206,7 +248,7 @@
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
         </div>
-        <p>&copy; 2020 Chethin Manage </p>
+        <p> &copy; 2020 Chethin Manage </p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

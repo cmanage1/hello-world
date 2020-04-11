@@ -1,3 +1,12 @@
+function copyToClipboard(elementId){
+    var aux = document.createElement("input");
+    aux.setAttribute('Value', document.getElementById(elementId).innerHTML );
+    document.body.appendChild(aux);
+    aux.select();
+    document.execCommand("Copy");
+    document.body.removeChild(aux);
+}
+
 $(document).ready(function () {
     $('.menu-toggler').on('click' , function() {
         $(this).toggleClass('open');
@@ -21,9 +30,17 @@ $(document).ready(function () {
         }, 2000);
     });
 
+    $('a[href*= "#"]').on('click', function () {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 2000);
+    });
+
     AOS.init({
         easing: 'ease',
         duration: 1800,
         once: true,
     });
+
+    
 });
