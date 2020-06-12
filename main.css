@@ -175,7 +175,7 @@ li{
 }
 
 .nav-link{
-    font-family: 'Lato' , sans-serif;
+    font-family: 'Monteserrat' , sans-serif;
     font-size: 4rem;
     padding: 1rem;
 }
@@ -386,6 +386,14 @@ li{
     font-size: 5rem;
     margin: auto;
 }
+
+h3{
+    font-size: 1.3rem;
+}
+
+h1{
+    font-size: 1.6;
+}
 /*End skills*/
 
 
@@ -440,7 +448,7 @@ li{
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    border: 3px solid #EED971FF;
+    border: 2px solid #EED971FF;
 }
 
 .card__side--back{
@@ -497,7 +505,7 @@ li{
 }
 
 .card__picture--3 {
-    background-image: url("images/portfolio.jpg"); 
+    background-image: url("images/protests_me.png"); 
 }
 
 .card__heading {
