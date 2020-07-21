@@ -38,6 +38,14 @@ p{
 img{
     max-width: 100%;
 }
+
+input:focus{
+    outline: none;
+} 
+
+textarea:focus {
+    outline: none;
+}
 /*End global*/
 
 
@@ -511,6 +519,15 @@ h1{
 .card__picture--4 {
     background-image: url("images/background.jpg"); 
 }
+
+.card__picture--5 {
+    background-image: url("images/lights.jpg"); 
+}
+
+.card__picture--6 {
+    background-image: url("images/background3.jpg"); 
+}
+
 
 .card__heading {
     font-size: 2.8rem;
