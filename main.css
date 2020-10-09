@@ -451,7 +451,8 @@ h1{
     -moz-perspective: 150rem;
     -webkit-perspective: 150rem;
     position: relative;
-    height: 40rem;
+    height: 30rem;
+    margin-bottom: 10rem;
 }
 
 .card__side{
@@ -521,7 +522,7 @@ h1{
 }
 
 .card__picture--2 {
-    background-image: url("images/background4.jpg"); 
+    background-image: url("images/genie.jpg"); 
 }
 
 .card__picture--3 {
@@ -529,15 +530,15 @@ h1{
 }
 
 .card__picture--4 {
-    background-image: url("images/background.jpg"); 
+    background-image: url("images/robot.jpeg"); 
 }
 
 .card__picture--5 {
-    background-image: url("images/lights.jpg"); 
+    background-image: url("images/shelf.jpg"); 
 }
 
 .card__picture--6 {
-    background-image: url("images/background3.jpg"); 
+    background-image: url("images/java.jpg"); 
 }
 
 
